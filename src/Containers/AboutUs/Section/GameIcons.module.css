@@ -1,0 +1,40 @@
+.game-icons {
+  justify-content: center;
+}
+.game-icons img {
+  max-width: 23.5%;
+  height: auto;
+  z-index: 1;
+  margin-left: -15px !important;
+  margin-top: 0;
+}
+@media (min-width: 30em) {
+  .game-icons img {
+    margin-left: -22.5px !important;
+  }
+}
+@media (min-width: 48em) {
+  .game-icons img {
+    margin-left: -30px !important;
+  }
+}
+.game-icons img:first-child {
+  transform: translate(20px, -15px);
+  max-width: 20%;
+  margin-left: 0;
+}
+.game-icons img:last-child {
+  transform: translate(-20px, -15px);
+  max-width: 20%;
+}
+.game-icons img:nth-child(3) {
+  max-width: 33%;
+  z-index: 3;
+}
+.game-icons img:nth-child(2) {
+  transform: translate(15px, -5px);
+}
+.game-icons img:nth-child(4) {
+  transform: translate(-15px, -5px);
+  z-index: 2;
+}
